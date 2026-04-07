@@ -1,0 +1,30 @@
+{
+  "name": "webpage-to-md",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "postinstall": "wxt prepare",
+    "dev": "npm run build:assets && wxt -b chrome",
+    "dev:chrome": "npm run build:assets && wxt -b chrome",
+    "dev:safari": "npm run build:assets && wxt -b safari",
+    "build:assets": "zsh ./scripts/build-assets.sh",
+    "build": "npm run build:assets && wxt build -b chrome",
+    "build:chrome": "npm run build:assets && wxt build -b chrome",
+    "build:safari": "npm run build:assets && wxt build -b safari",
+    "zip": "wxt zip -b chrome",
+    "check": "tsc --noEmit",
+    "pack:chrome-store": "zsh ./scripts/package-chrome-store.sh"
+  },
+  "dependencies": {
+    "@mozilla/readability": "^0.6.0",
+    "turndown": "^7.2.2",
+    "turndown-plugin-gfm": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "@types/turndown": "^5.0.6",
+    "typescript": "^6.0.2",
+    "wxt": "^0.20.20"
+  }
+}

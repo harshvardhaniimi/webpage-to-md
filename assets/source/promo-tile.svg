@@ -1,0 +1,29 @@
+<svg width="440" height="280" viewBox="0 0 440 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="24" y1="18" x2="396" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8E1BC"/>
+      <stop offset="1" stop-color="#E6B368"/>
+    </linearGradient>
+    <linearGradient id="card" x1="264" y1="58" x2="377" y2="212" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFDF8"/>
+      <stop offset="1" stop-color="#F8EAD7"/>
+    </linearGradient>
+  </defs>
+  <rect width="440" height="280" rx="32" fill="url(#bg)"/>
+  <circle cx="80" cy="56" r="64" fill="#FFFFFF" fill-opacity="0.28"/>
+  <circle cx="394" cy="220" r="72" fill="#A9560E" fill-opacity="0.18"/>
+  <rect x="32" y="34" width="148" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.56"/>
+  <text x="47" y="54" fill="#8A4E14" font-size="16" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-weight="700" letter-spacing="2.5">PAGE TO MARKDOWN</text>
+  <text x="32" y="108" fill="#1B262C" font-size="34" font-family="Georgia, serif" font-weight="700">Copy pages</text>
+  <text x="32" y="147" fill="#1B262C" font-size="34" font-family="Georgia, serif" font-weight="700">as clean notes.</text>
+  <text x="34" y="191" fill="#415159" font-size="18" font-family="Avenir Next, Helvetica, Arial, sans-serif">Markdown, plain text, or a .md download</text>
+  <rect x="247" y="54" width="151" height="170" rx="22" fill="url(#card)" stroke="#1F2B31" stroke-opacity="0.1"/>
+  <rect x="264" y="72" width="117" height="14" rx="7" fill="#F1E0CA"/>
+  <rect x="264" y="96" width="102" height="9" rx="4.5" fill="#D9B486"/>
+  <rect x="264" y="122" width="117" height="33" rx="16.5" fill="#D57918"/>
+  <text x="285" y="143" fill="#FFF9F2" font-size="14" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-weight="700">Copy Markdown</text>
+  <rect x="264" y="165" width="117" height="24" rx="12" fill="#FFFFFF"/>
+  <text x="292" y="181" fill="#2A3940" font-size="12" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-weight="700">Copy Plain Text</text>
+  <rect x="264" y="197" width="117" height="24" rx="12" fill="#FFFFFF"/>
+  <text x="294" y="213" fill="#2A3940" font-size="12" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-weight="700">Download .md</text>
+</svg>
