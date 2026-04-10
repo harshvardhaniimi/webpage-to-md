@@ -1,5 +1,8 @@
 # Page to Markdown
 
+<img width="1582" height="1035" alt="image" src="https://github.com/user-attachments/assets/bf0ccfef-bdee-48e1-9746-50b24021ffd5" />
+
+
 A lightweight browser extension built with WXT and TypeScript that turns the current tab into:
 
 - Markdown on your clipboard
